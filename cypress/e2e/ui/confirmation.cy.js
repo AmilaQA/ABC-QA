@@ -25,7 +25,6 @@ class confirmationPage {
     isGoHomeVisible(){
         this.elements.goHomeButton().should("have.text","Go to Homepage")
     }
-
 }
 
 module.exports = new confirmationPage();
